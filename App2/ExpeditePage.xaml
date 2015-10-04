@@ -10,7 +10,8 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button x:Name="ClearAllBtn" Content="Clear All Orders" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,574,0,0" Width="1004"/>
         <GridView x:Name="gridView" HorizontalAlignment="Left" Margin="41,84,0,0" VerticalAlignment="Top" Width="943" Height="456"/>
-        <AppBarButton x:Name="HomeBtn" HorizontalAlignment="Left" Icon="Accept" Label="Home" Margin="10,-2,0,0" VerticalAlignment="Top" Height="61" Click="HomeBtn_Click"/>
-
+        <AppBar>
+            <AppBarButton x:Name="HomeBtn" HorizontalAlignment="Left" Icon="Accept" Label="Home" Margin="10,-2,0,0" VerticalAlignment="Top" Height="61" Click="HomeBtn_Click"/>
+        </AppBar>
     </Grid>
 </Page>

@@ -13,8 +13,9 @@
         <ListView x:Name="Orderlist" HorizontalAlignment="Right" Height="388" Margin="0,148,0,0" VerticalAlignment="Top" Width="414" RenderTransformOrigin="0.5,0.5"/>
         <ListView x:Name="Itemslist" HorizontalAlignment="Left" Width="431" Margin="0,148,0,104"/>
         <TextBlock x:Name="SpecialOrdersBlock" Text="Special Requests: Order Items:" HorizontalAlignment="Left" Margin="506,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="438"/>
-        <AppBarButton x:Name="HomeBtn" HorizontalAlignment="Left" Icon="Accept" Label="Home" VerticalAlignment="Top" Height="71" Click="HomeBtn_Click"/>
-
+        <AppBar>
+            <AppBarButton x:Name="HomeBtn" HorizontalAlignment="Left" Icon="Accept" Label="Home" VerticalAlignment="Top" Height="71" Click="HomeBtn_Click"/>
+        </AppBar>
 
     </Grid>
 </Page>
